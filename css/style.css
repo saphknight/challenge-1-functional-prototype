@@ -1,0 +1,158 @@
+#header {
+    font-family: 'Arial';
+    font-weight: 100;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25vh;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#main-div {
+    width: 400%;
+    height: 100%;
+    background: #2881bb;
+}
+
+#text {
+    padding-left: 2vw;
+}
+
+#second-group {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+}
+
+.second-container {
+    width: 25%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-div {
+    width: 100%;
+    height: 60%;
+}
+
+#div210{
+    background: #2881bb;
+}
+
+#div211 {
+    background: #2c6087;
+}
+
+#div212 {
+    background: #9044b0;
+}
+
+#div213 {
+    background: #ef763d;
+}
+
+.second-bottom {
+    background: #d1d2cd;
+    width: 100%;
+    height: 20%;
+    margin-top: 10%;
+}
+
+#third-group {
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+}
+
+.third-div {
+    width: 100%;
+    height: 70%;
+}
+
+.third-bottom, .third-bottom2 {
+    background: #d1d2cd;
+    width: 100%;
+    height: 20%;
+    margin-top: 5%;
+}
+
+.third-container {
+    width: 28%;
+    padding: 1vw;
+}
+
+#div310 {
+    background: #cc3e30;
+}
+
+#div311{
+    background: #f2c512;
+}
+
+#div312{
+    background: #2c975f;
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        width: 95vw;
+        position: relative;
+    }
+
+    #main-container {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #main-div {
+        width: 100%;
+        height: 120%;
+    }
+
+    #text {
+        margin-top: 2vh;
+    }
+
+    #second-group {
+        flex-wrap: wrap;
+        height: 40vh;
+    }
+
+    .second-container {
+        width: 46%;
+        margin: 2%;
+    }
+
+    #third-group {
+        flex-direction: column;
+    }
+
+    .third-container {
+        width: 96%;
+        height: 25vh;
+        padding: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 5%;
+    }
+
+    .third-bottom2 {
+        display: none;
+    }
+}
